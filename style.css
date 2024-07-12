@@ -1,0 +1,123 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+html, body{
+    overflow-x: hidden;
+}
+
+#page1{
+    background:wheat;
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+h1{
+    font-size: 50px;
+    font-weight: 800;
+}
+
+p{
+    font-weight: 500;
+}
+
+
+a{
+    list-style: none;
+    text-decoration: none;
+    color: #111;
+}
+
+
+
+#page3{
+    background:wheat;
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+
+/* ---------------------------- 1st and 3rd page complete ----------------------------------- */
+
+
+
+
+
+#page2{
+    width: 100%;
+    height: 300vh;
+    background: rgba(0, 255, 255, 0.411);
+    display: flex;
+
+}
+
+
+#content{
+    width: 50%;
+    height: 100%;
+    /* border: 2px solid red; */
+    padding: 70px;
+    position: relative;
+}
+#content1, #content2, #content3, #content4{
+    padding-top: 400px;
+}
+
+
+.img{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    /* border: 12px solid #000; */
+}
+
+
+#block{
+    margin-top: 320px;
+    /* border: 12px solid #000; */
+    width: 400px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#img1{
+    width: 300px;
+    height: 300px;
+    background: red;
+}
+
+#img2{
+    width: 300px;
+    height: 300px;
+    background: yellowgreen;
+    position: absolute;
+}
+
+#img3{
+    width: 300px;
+    height: 300px;
+    background: blue;
+    position: absolute;
+}
+#img4{
+    width: 300px;
+    height: 300px;
+    background: purple;
+    position: absolute;
+}
